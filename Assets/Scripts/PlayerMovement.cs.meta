@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0afd61b0fec02495ab29d98fead4a79b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnedPrefab: {fileID: 1042457392246789187, guid: 3c35b8ee5a7f443c18110fe3d16f2e04, type: 3}
+  - cannon: {instanceID: 0}
+  - bullet: {fileID: 8153683750971856195, guid: 5779c8b9331d049578f41a35060a86f4, type: 3}
+  - audioListener: {instanceID: 0}
+  - playerCamera: {instanceID: 0}
+  - playerNumberText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
