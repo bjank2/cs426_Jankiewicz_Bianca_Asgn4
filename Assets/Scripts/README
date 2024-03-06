@@ -1,0 +1,7 @@
+- 2 physics constructs, one construct must implement collisions
+- 1 bnillboard with textures
+- 2 lights to the level, one colored light
+
+- target and trees are physics constructs and both implement collision. target considers collision to increase score and the bullets bounce off the trees
+- billboard is the number above the target with a gradient texture
+- two campfires of different colors next to the target

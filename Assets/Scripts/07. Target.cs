@@ -10,16 +10,16 @@ public class Target : NetworkBehaviour
 {
 
     private string sequence = "";
+    private string requiredSequence = "1101";
     //this method is called whenever a collision is detected
+    [SerializeField] private TMP_Text BinCode;
     [SerializeField] private GameObject Menu;
     public GameObject BBQuestion;
-    [SerializeField] private static int RandomNumber = 13;
-    [SerializeField] private TMP_Text BinCode;
-    public string requiredSequence = System.Convert.ToString(RandomNumber, 2).PadLeft(4, '0');
-   
     void Start()
     {
-    BinCode.text = RandomNumber.ToString();
+        // int randomNumber = Random.Range(0, 16);
+        // requiredSequence = System.Convert.ToString(randomNumber, 2).PadLeft(4, '0');
+        // BinCode.text = randomNumber.ToString();
     }
 
     private void OnCollisionEnter(Collision collision)
